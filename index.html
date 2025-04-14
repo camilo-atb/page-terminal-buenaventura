@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TERMINAL DE TRANSPORTE DE BUENAVENTURA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <section class="inicio__sesion">
+        <div class="container container__inicio__sesion">
+            <img src="assets/usuario.png" alt="icono usuario" class="inicio__sesion__icono">
+            
+            <a href="#" class="inicio__sesion__enlace">Iniciar sesión</a>
+        </div>
+    </section>
+    <header class="header">
+        <div class="container__header">
+            <section class="menu">
+                <img src="assets/logo_terminal.png" alt="logo de la terminal de transportes" class="menu__img">
+                <nav class="menu__navegacion">
+                    <ul class="menu__ul">
+                        <li class="menu__li"><a href="#">Inicio</a></li>
+                        <li class="menu__li"><a href="#">Destinos</a></li>
+                        <li class="menu__li"><a href="#">Envíos</a></li>
+                        <li class="menu__li"><a href="#">Tiquetes</a></li>
+                        <li class="menu__li"><a href="#">Transparencia</a></li>
+                        <li class="menu__li">
+                            <img src="assets/lupa.png" alt="buscar" class="menu__li__search">
+                        </li>
+                    </ul>
+                </nav>
+            </section>  
+        </div>
+    </header>
+
+    <section class="compra__pasajes">
+        <div class="container container__compra">
+            <section class="formulario">
+                <h1 class="formulario__title">
+                    Viajar nunca fue tan fácil:<br>
+                    adquiere tu tiquete ahora
+                </h1>
+                <form class="formulario__compra">
+                    <div class="contenedor__inputs__compra">
+                        <input type="text" id="destino" class="formulario__input" placeholder="Destino">
+                        <figure class="contenedor__icono__abajo">
+                            <img src="assets/flecha_abajo.svg" alt="desplegable abajo" class="formulario__icono__abajo">
+                        </figure> 
+                    </div>
+
+                    <div class="contenedor__inputs__compra">
+                        <input type="number" id="cantidad__personas" class="formulario__input" placeholder="Cantidad de personas">
+                        <figure class="contenedor__icono__abajo">
+                            <img src="assets/flecha_abajo.svg" alt="desplegable abajo" class="formulario__icono__abajo">
+                        </figure> 
+                    </div>
+
+                    <div class="contenedor__inputs__compra">
+                        <input type="text" id="fecha__salida" class="formulario__input" placeholder="Fecha de salida">
+                        <figure class="contenedor__icono__abajo">
+                            <img src="assets/flecha_abajo.svg" alt="desplegable abajo" class="formulario__icono__abajo">
+                        </figure> 
+                    </div>
+                    
+                    <button type="submit" class="formulario__boton">Buscar</button>
+                </form>
+            </section>
+        </div>
+    </section>
+
+    <!-- Noticias -->
+
+    <section class="section__flex section__noticias">
+        <div class="container container__noticias">
+            <h2 class="title target__title">Noticias</h2>
+            <div class="div__noticias">
+                <img src="assets/izquierdo.png" alt="icono" class="target__icono">
+                <article class="target__noticia">
+                    <figure class="target__contenedor__imagen">
+                        <img src="assets/1-incendio.jpg" alt="noticia incendio" class="target__img">
+                    </figure>
+                    <h3 class="title__terger">Noticia 1</h3>
+                    <p class="target__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam modi dolores deleniti veritatis ullam. Esse ad aut quas, dolorem repellat ipsum, cumque quae perferendis dolor ut ducimus quisquam, aliquam debitis.</p>
+                </article>
+        
+                <article class="target__noticia">
+                    <figure class="target__contenedor__imagen">
+                        <img src="assets/2-incendio.jpg" alt="noticia incendio" class="target__img">
+                    </figure>
+                    <h3 class="title__terger">Noticia 2</h3>
+                    <p class="target__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam atque, explicabo excepturi ab nihil sequi ea cupiditate fuga officia vitae facere ratione quibusdam. Illum incidunt cumque ipsum fugiat eaque distinctio.</p>
+                </article>
+        
+                <article class="target__noticia">
+                    <figure class="target__contenedor__imagen">
+                        <img src="assets/3-incendio.jpg" alt="noticia incendio" class="target__img">
+                    </figure>
+                    <h3 class="title__terger">Noticia 3</h3>
+                    <p class="target__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti distinctio sapiente hic rerum assumenda itaque vero, impedit commodi eveniet esse ducimus, perspiciatis id deserunt provident, veniam ratione veritatis doloribus consectetur!</p>
+                </article>
+        
+                <article class="target__noticia">
+                    <figure class="target__contenedor__imagen">
+                        <img src="assets/4-incendio.jpg" alt="noticia incendio" class="target__img">
+                    </figure>
+                    <h3 class="title__terger">Noticia 4</h3>
+                    <p class="target__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint minus atque aliquam vero velit impedit veniam labore a quas consectetur, autem fugit laudantium culpa at perferendis asperiores harum explicabo fuga?</p>
+                </article>
+                <img src="assets/derecho.png" alt="icono" class="target__icono">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección preguntas frecuentes -->
+     <section class="section__flex section__questions">
+        <div class="container container__questions">
+            <h2 class="title questions__title">Preguntas frecuentes</h2>
+            <div class="article__all">
+                <article class="article__questions">
+                    <h3 class="questions__subtitle">1. Primera pregunta</h3>
+                    <img src="assets/flecha_abajo.svg" alt="icono" class="questions__img">
+                </article>
+
+                <article class="article__questions">
+                    <h3 class="questions__subtitle">2. Segunda pregunta</h3>
+                    <img src="assets/flecha_abajo.svg" alt="icono" class="questions__img">
+                </article>
+
+                <article class="article__questions">
+                    <h3 class="questions__subtitle">3. Tercera pregunta</h3>
+                    <img src="assets/flecha_abajo.svg" alt="icono" class="questions__img">
+                </article>
+
+                <article class="article__questions">
+                    <h3 class="questions__subtitle">4. Cuarta pregunta</h3>
+                    <img src="assets/flecha_abajo.svg" alt="icono" class="questions__img">
+                </article>
+
+                <article class="article__questions">
+                    <h3 class="questions__subtitle">5. Quinta pregunta</h3>
+                    <img src="assets/flecha_abajo.svg" alt="icono" class="questions__img">
+                </article>
+            </div>
+        </div>
+     </section>
+
+     <!-- Sección de opiniones -->
+      <section class="section__flex section__opinion">
+        <div class="container opinion__container">
+            <h2 class="title opinion__title">Opiniones</h2>
+            <div class="opinion__input">
+                <div class="opinion__stars">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star--foco">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star--foco">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star--foco">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star--foco">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star--foco">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                    </svg>
+                </div>
+
+                <form class="form__opinion">
+                    <textarea class="input__opinion" placeholder="Escribe tu opinión aquí..."></textarea>
+
+                    <div class="form__botones">
+                        <button type="submit" class="botones">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 opinion__icono__boton">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                            Publicar
+                        </button>
+                        <button type="reset" class="botones botones--rojo">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 opinion__icono__boton">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                            </svg>
+                            Cancelar
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="publicacion__opiniones">
+                <article class="article__publicacion__opiniones">
+                    <div class="opinion__stars">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+                    </div>
+                    <h3 class="opinion__fecha">28/08/2024</h3>
+                    <h3>Luis Alfonso Perez</h3>
+                    <textarea class="opinion__publicada">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, non, eaque provident eveniet nulla, iure doloremque cupiditate dignissimos est facilis ipsam. Dicta atque sunt natus nostrum quo eum, ab vero.</textarea>
+                </article>
+                <article class="article__publicacion__opiniones">
+                    <div class="opinion__stars">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+                    </div>
+                    <h3 class="opinion__fecha">15/12/2024</h3>
+                    <h3>Yuli Daniela Ortiz</h3>
+                    <textarea class="opinion__publicada">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nobis aut quisquam eligendi mollitia quia repellat pariatur sapiente dolor incidunt doloremque ea, repudiandae fuga dolorum perferendis autem assumenda. Tempore, molestias?</textarea>
+                </article>
+
+                <article class="article__publicacion__opiniones">
+                    <div class="opinion__stars">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 star star-active">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                        </svg>
+                    </div>
+                    <h3 class="opinion__fecha">15/02/2025</h3>
+                    <h3>Luis Alfonso Perez</h3>
+                    <textarea class="opinion__publicada">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores minus eius consectetur modi eum nam, maiores corrupti laudantium facilis libero odit quisquam dicta repudiandae nulla? Nisi, possimus fugiat. Deleniti, id.</textarea>
+                </article>
+
+            </div>
+            <div class="opinion__botones">
+                <img src="assets/izquierdo.png" class="target__icono">
+                <p>Página 2 de 4</p>
+                <img src="assets/derecho.png" class="target__icono">
+            </div>
+        </div>
+      </section>
+
+      <!-- Sección logos -->
+       <section class="section__flex section__logos">
+        <div class="container container__logos">
+            <img src="assets/1-logo.png" alt="" class="logo">
+            <img src="assets/2-logo.png" alt="" class="logo">
+            <img src="assets/3-logo.png" alt="" class="logo">
+            <img src="assets/4-logo.png" alt="" class="logo">
+            <img src="assets/5-logo.png" alt="" class="logo">
+        </div>
+       </section>
+
+       <!-- Footer -->
+        <footer class="section__flex section__footer">
+            <div class="container container__footer">
+                <div class="footer__text">
+                    <h3 class="footer__h3">Informacion de contacto</h3>
+                    <p class="footer__p">Cra. 5 #7-32, Buenaventura, Valle del Cauca</p>
+                    <p class="footer__p">Atención área administrativa: Lunes a viernes 8:00 a.m. a 12:00 p.m. y 2:00 p.m. a 5:00 p.m</p>
+                    <h3>Telefonos</h3>
+                    <p class="footer__p">(+57) 602 240 2222</p>
+                    <p class="footer__p">(+57) 602 242 2212</p>
+                </div>
+                <img src="assets/nuestro_logo.png" alt="nuestro logo opti trans" class="logo__footer">
+            </div> 
+        </footer>
+        <section class="section__copyright">
+            <p>© 2021 - 2025 Terminal de Transporte de Buenaventura. Todos los derechos reservados.<br>
+                Camilo Andrés Téllez Benítez - Brayan Camilo Vargas Perdomo - Camila Andrea Montaño Gamboa (SENA, ADSO)</p>
+        </section>   
+
+    <script src="script/script.js"></script>
+</body>
+</html>

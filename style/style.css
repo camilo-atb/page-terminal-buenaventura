@@ -519,3 +519,103 @@ body{
     text-align: center;
     background-color: #EFEFEF;
 }
+
+/* PÁGINA DE REGISTRO */
+
+/*Background*/
+
+.container__register{
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.img__register img{
+    max-width: 100%;
+    height: auto;
+}
+    
+/* FORMULARIO*/
+
+.form__registro{
+    width: 390px;
+    background-color: #f0eefe;
+    padding: 35px;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 16px 2px rgba(148,195,255,255);
+    color: rgb(12, 12, 12);
+}
+
+.form__registro h4{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.form-nombres{
+    display: flex;
+    gap: 10px;
+}
+
+.controles {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 2px solid #9b9898;
+    font-family: calibri, sans-serif;
+    font-size: 1rem;
+}
+.contraseña{
+    display: flex;
+    align-items:baseline;
+    width: 100%;
+}
+
+.bx {
+    cursor: pointer;
+    transform:translateX(-35px);
+}
+
+.form__registro p{
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.form__registro a{
+    color: black;
+    text-decoration: none;
+}
+
+.form__registro a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.check-box {
+    text-align: center;
+    line-height: 40px;
+}
+
+.form__registro .boton {
+    width: 100%;
+    background-color: var(--azul-secundario);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 16px;
+}
+.boton:hover{
+    background-color: #3b7dc4;
+}

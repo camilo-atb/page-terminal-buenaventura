@@ -579,11 +579,16 @@ body{
     display: flex;
     align-items:baseline;
     width: 100%;
+    position: relative;
 }
 
 .bx {
     cursor: pointer;
-    transform:translateX(-35px);
+    /* transform:translateX(-35px); */
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-75%);
 }
 
 .form__registro p{

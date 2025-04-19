@@ -627,17 +627,18 @@ body{
     text-decoration: none;
 }
 
-.form__registro a:hover{
+.iniciar__sesion:hover{
+    transition: .3s;
+    font-weight: bold;
     color: black;
-    text-decoration: underline;
 }
-
 .check-box {
     text-align: center;
     line-height: 40px;
 }
 
 .form__registro .boton {
+    text-align: center;
     width: 100%;
     background-color: var(--azul-secundario);
     padding: 15px;
@@ -647,6 +648,10 @@ body{
     font-size: 16px;
 }
 .boton:hover{
+    transition: .3s;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
     background-color: #3b7dc4;
 }
 

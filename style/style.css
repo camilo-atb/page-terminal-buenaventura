@@ -688,12 +688,20 @@ body{
 /*SLIDER*/
 
 .slider-frame{
+    outline: 4px solid #5754fd;
     max-width: 1280px;
+    max-height: 720px;
     width: 90%;
     height: auto;
     margin: 50px auto 50px;
     overflow: hidden;
 
+}
+
+.slider-frame:hover{ 
+    transition: .4s;
+    box-shadow: 0 0 12px 5px #5754fd;
+    outline: 1.5px solid #5f5cfc;
 }
 
 .slider-frame ul{
@@ -712,6 +720,7 @@ body{
 
 .slider-frame img{
     width: 100%;
+    height: 100%;
 }
 
 

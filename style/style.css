@@ -1069,4 +1069,19 @@ body{
     .transparencia__title{
         text-align: center;
     }
+
+    /* PÁGINA DE ENVÍOS */
+
+    /* PRIMEA SECCIÓN - CONSULTA */
+
+    .formulario__input2{
+        width: 100%;
+    }
+
+    .div__dimensiones{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
 }
